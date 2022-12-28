@@ -15,7 +15,7 @@ namespace GeekShopping.ProductAPI.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.2")
+                .HasAnnotation("ProductVersion", "6.0.12")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("GeekShopping.ProductAPI.Model.Product", b =>
@@ -33,11 +33,11 @@ namespace GeekShopping.ProductAPI.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("varchar(500)")
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)")
                         .HasColumnName("description");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("ImageURL")
                         .IsRequired()
                         .HasMaxLength(300)
                         .HasColumnType("varchar(300)")
@@ -49,13 +49,105 @@ namespace GeekShopping.ProductAPI.Migrations
                         .HasColumnType("varchar(150)")
                         .HasColumnName("name");
 
-                    b.Property<decimal>("Price")
+                    b.Property<decimal>("price")
                         .HasColumnType("decimal(65,30)")
                         .HasColumnName("price");
 
                     b.HasKey("Id");
 
                     b.ToTable("product");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 2L,
+                            CategoryName = "Category",
+                            Description = "Description",
+                            ImageURL = "https://github.com/leandrocgsi/erudio-microservices-dotnet6/blob/main/ShoppingImages/1_super_mario.jpg?raw=true",
+                            Name = "Name",
+                            price = 69.9m
+                        },
+                        new
+                        {
+                            Id = 3L,
+                            CategoryName = "Category",
+                            Description = "Description",
+                            ImageURL = "https://github.com/leandrocgsi/erudio-microservices-dotnet6/blob/main/ShoppingImages/1_super_mario.jpg?raw=true",
+                            Name = "Name",
+                            price = 69.9m
+                        },
+                        new
+                        {
+                            Id = 4L,
+                            CategoryName = "Category",
+                            Description = "Description",
+                            ImageURL = "https://github.com/leandrocgsi/erudio-microservices-dotnet6/blob/main/ShoppingImages/1_super_mario.jpg?raw=true",
+                            Name = "Name",
+                            price = 69.9m
+                        },
+                        new
+                        {
+                            Id = 5L,
+                            CategoryName = "Category",
+                            Description = "Description",
+                            ImageURL = "https://github.com/leandrocgsi/erudio-microservices-dotnet6/blob/main/ShoppingImages/1_super_mario.jpg?raw=true",
+                            Name = "Name",
+                            price = 769.9m
+                        },
+                        new
+                        {
+                            Id = 6L,
+                            CategoryName = "Category",
+                            Description = "Description",
+                            ImageURL = "https://github.com/leandrocgsi/erudio-microservices-dotnet6/blob/main/ShoppingImages/1_super_mario.jpg?raw=true",
+                            Name = "Name",
+                            price = 369.9m
+                        },
+                        new
+                        {
+                            Id = 7L,
+                            CategoryName = "Category",
+                            Description = "Description",
+                            ImageURL = "https://github.com/leandrocgsi/erudio-microservices-dotnet6/blob/main/ShoppingImages/1_super_mario.jpg?raw=true",
+                            Name = "Name",
+                            price = 699.9m
+                        },
+                        new
+                        {
+                            Id = 8L,
+                            CategoryName = "Category",
+                            Description = "Description",
+                            ImageURL = "https://github.com/leandrocgsi/erudio-microservices-dotnet6/blob/main/ShoppingImages/1_super_mario.jpg?raw=true",
+                            Name = "Name",
+                            price = 689.9m
+                        },
+                        new
+                        {
+                            Id = 9L,
+                            CategoryName = "Category",
+                            Description = "Description",
+                            ImageURL = "https://github.com/leandrocgsi/erudio-microservices-dotnet6/blob/main/ShoppingImages/1_super_mario.jpg?raw=true",
+                            Name = "Name",
+                            price = 869.9m
+                        },
+                        new
+                        {
+                            Id = 10L,
+                            CategoryName = "Category",
+                            Description = "Description",
+                            ImageURL = "https://github.com/leandrocgsi/erudio-microservices-dotnet6/blob/main/ShoppingImages/1_super_mario.jpg?raw=true",
+                            Name = "Name",
+                            price = 9.9m
+                        },
+                        new
+                        {
+                            Id = 11L,
+                            CategoryName = "Category",
+                            Description = "Description",
+                            ImageURL = "https://github.com/leandrocgsi/erudio-microservices-dotnet6/blob/main/ShoppingImages/1_super_mario.jpg?raw=true",
+                            Name = "Name",
+                            price = 169.9m
+                        });
                 });
 #pragma warning restore 612, 618
         }

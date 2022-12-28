@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\erudio-microservices-dotnet6\\S08_ErudioMicroServices.NET6-OrganazinfTheFirstMicrosservices\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj": {}
+    "C:\\workspace\\erudio-microservices-dotnet6\\S08_ErudioMicroServices.NET6-OrganazinfTheFirstMicrosservices\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj": {}
   },
   "projects": {
-    "C:\\Code\\erudio-microservices-dotnet6\\S08_ErudioMicroServices.NET6-OrganazinfTheFirstMicrosservices\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj": {
+    "C:\\workspace\\erudio-microservices-dotnet6\\S08_ErudioMicroServices.NET6-OrganazinfTheFirstMicrosservices\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\erudio-microservices-dotnet6\\S08_ErudioMicroServices.NET6-OrganazinfTheFirstMicrosservices\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+        "projectUniqueName": "C:\\workspace\\erudio-microservices-dotnet6\\S08_ErudioMicroServices.NET6-OrganazinfTheFirstMicrosservices\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
         "projectName": "GeekShopping.ProductAPI",
-        "projectPath": "C:\\Code\\erudio-microservices-dotnet6\\S08_ErudioMicroServices.NET6-OrganazinfTheFirstMicrosservices\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
-        "packagesPath": "C:\\Users\\flcab\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\erudio-microservices-dotnet6\\S08_ErudioMicroServices.NET6-OrganazinfTheFirstMicrosservices\\GeekShopping\\GeekShopping.ProductAPI\\obj\\",
+        "projectPath": "C:\\workspace\\erudio-microservices-dotnet6\\S08_ErudioMicroServices.NET6-OrganazinfTheFirstMicrosservices\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+        "packagesPath": "C:\\Users\\XWPVI46\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\erudio-microservices-dotnet6\\S08_ErudioMicroServices.NET6-OrganazinfTheFirstMicrosservices\\GeekShopping\\GeekShopping.ProductAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\flcab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\XWPVI46\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,25 +46,21 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[11.0.1, )"
+              "version": "[12.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[11.0.0, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[12.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.12, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -71,11 +68,11 @@
             },
             "Swashbuckle.AspNetCore.Annotations": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -84,7 +81,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -96,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
