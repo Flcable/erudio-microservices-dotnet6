@@ -1,3 +1,4 @@
+using GeekShopping.Web.Services;
 using GeekShopping.Web.Services.IServices;
 
 namespace GeekShopping.Web
@@ -8,7 +9,7 @@ namespace GeekShopping.Web
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddHttpClient<IProductService, IProductService>(
+            builder.Services.AddHttpClient<IProductService, ProductService>(
                 c => c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductAPI"])    
          );
 

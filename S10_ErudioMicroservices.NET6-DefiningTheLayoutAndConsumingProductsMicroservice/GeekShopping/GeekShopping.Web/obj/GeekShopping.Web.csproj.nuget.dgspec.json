@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\erudio-microservices-dotnet6\\S09_ErudioMicroservices.NET6-ConsumingProductMicroserviceonWebMicroservice\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj": {}
+    "C:\\workspace\\erudio-microservices-dotnet6\\S10_ErudioMicroservices.NET6-DefiningTheLayoutAndConsumingProductsMicroservice\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\erudio-microservices-dotnet6\\S09_ErudioMicroservices.NET6-ConsumingProductMicroserviceonWebMicroservice\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj": {
+    "C:\\workspace\\erudio-microservices-dotnet6\\S10_ErudioMicroservices.NET6-DefiningTheLayoutAndConsumingProductsMicroservice\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\erudio-microservices-dotnet6\\S09_ErudioMicroservices.NET6-ConsumingProductMicroserviceonWebMicroservice\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+        "projectUniqueName": "C:\\workspace\\erudio-microservices-dotnet6\\S10_ErudioMicroservices.NET6-DefiningTheLayoutAndConsumingProductsMicroservice\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
         "projectName": "GeekShopping.Web",
-        "projectPath": "C:\\workspace\\erudio-microservices-dotnet6\\S09_ErudioMicroservices.NET6-ConsumingProductMicroserviceonWebMicroservice\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+        "projectPath": "C:\\workspace\\erudio-microservices-dotnet6\\S10_ErudioMicroservices.NET6-DefiningTheLayoutAndConsumingProductsMicroservice\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
         "packagesPath": "C:\\Users\\XWPVI46\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\erudio-microservices-dotnet6\\S09_ErudioMicroservices.NET6-ConsumingProductMicroserviceonWebMicroservice\\GeekShopping\\GeekShopping.Web\\obj\\",
+        "outputPath": "C:\\workspace\\erudio-microservices-dotnet6\\S10_ErudioMicroservices.NET6-DefiningTheLayoutAndConsumingProductsMicroservice\\GeekShopping\\GeekShopping.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
